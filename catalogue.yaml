@@ -10,7 +10,7 @@
       name: nodejs 
       state: present
 
-  # - name: Install NodeJS
+  # - name: Install nodeJS
   #   ansible.builtin.dnf:
   #     name: nodejs
   #     start: present
