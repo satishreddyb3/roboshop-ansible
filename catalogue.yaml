@@ -55,10 +55,10 @@
       src: mongodb.repo
       dest: /etc/yum.repos.d/mongodb.repo
 
-  - name: install mongodb clint
+  -- name: Install mongodb client
     ansible.builtin.package:
-      name: mmongodb-org-shell
-      state: present  
+      name: mongodb-org-shell
+      state: present
      
 
 
